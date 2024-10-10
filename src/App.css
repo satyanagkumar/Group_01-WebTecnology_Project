@@ -28,6 +28,192 @@
   color: #61dafb;
 }
 
+/* General body styling */
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background: #f4f4f4;
+  color: #333;
+}
+
+/* General styling for the entire app */
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+/* Styling for each section */
+section {
+  margin: 20px;
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Header section specific styles */
+h1, h2 {
+  color: #333;
+}
+
+/* Home section styles */
+#homeSection {
+  margin-top: 50px;
+}
+
+/* Styling paragraphs for better readability */
+p {
+  text-align: left;
+  padding: 0 20px;
+}
+
+/* Content section styles */
+#contentSection h3 {
+  color: #555;
+  padding-top: 10px;
+}
+
+/* Table styles for taxonomy */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+table th, table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+thead {
+  background-color: #f8f8f8;
+}
+
+/* Team section styles */
+#teamSection {
+  text-align: center;
+  padding: 20px;
+  background-color: #fff; /* Optional: Change as per your design */
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.06);
+}
+
+#teamSection h2 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.member-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px; /* Manage spacing between team members */
+}
+
+.member {
+  flex: 1 0 200px; /* Flex-grow, Flex-shrink, and base width */
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center align the items vertically */
+  padding: 10px;
+  border-radius: 8px;
+  background: #f9f9f9; /* Slight grey background */
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12);
+}
+
+.member img {
+  width: 100px; /* Adjust size as necessary */
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.member p {
+  font-size: 0.9rem;
+  color: #666;
+  text-align: center;
+}
+
+
+/* Ensure the content is centered and legible */
+ul {
+  padding: 0;
+}
+
+button {
+  background: none;
+  border: 1px solid #ccc;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #eee;
+}
+
+#homeSection h1 {
+  color: #2a3f5f;
+  margin-bottom: 20px;
+}
+
+#homeSection {
+  background-color: #ffffff; /* Light background for better readability */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.06);
+  margin: 20px auto;
+  max-width: 800px; /* Limits the width of the section for readability */
+}
+
+#homeSection h2 {
+  color: #3478f6; /* A vibrant blue for subsection headers */
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+
+#homeSection p {
+  text-align: justify; /* Justifies the paragraph for a cleaner look */
+  line-height: 1.6; /* Increases line spacing for readability */
+  color: #666; /* Slightly muted text color for easier reading */
+  font-size: 1rem; /* Standard font size */
+}
+
+ul {
+  list-style-type: none; /* Removes bullet points from lists */
+  padding: 0;
+}
+
+button {
+  background: #3478f6; /* Button color matches the h2 header */
+  color: white; /* White text on colored background */
+  border: none;
+  border-radius: 4px;
+  padding: 10px 15px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #2658a8; /* Darker blue on hover for visual feedback */
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
