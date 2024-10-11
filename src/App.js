@@ -13,10 +13,10 @@ function App() {
       <div>
         <Navbar />
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/content" element={<Content />} />
-          <Route path="/taxonomy" element={<Taxonomy />} />
-          <Route path="/team" element={<Team />} />
+          <Route path="/Group_01-WebTecnology_Project/" element={<Home />} />
+          <Route path="/Group_01-WebTecnology_Project/content" element={<Content />} />
+          <Route path="/Group_01-WebTecnology_Project/taxonomy" element={<Taxonomy />} />
+          <Route path="/Group_01-WebTecnology_Project/team" element={<Team />} />
         </Routes>
       </div>
     </Router>
