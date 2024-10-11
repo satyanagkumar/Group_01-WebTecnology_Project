@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './Containers/Navbar';
 import Home from './Containers/Home';
 import Content from './Containers/Content';
@@ -13,10 +13,10 @@ function App() {
       <div>
         <Navbar />
         <Routes>
-          <Route path="/Group_01-WebTecnology_Project/" element={<Home />} />
-          <Route path="/Group_01-WebTecnology_Project/content" element={<Content />} />
-          <Route path="/Group_01-WebTecnology_Project/taxonomy" element={<Taxonomy />} />
-          <Route path="/Group_01-WebTecnology_Project/team" element={<Team />} />
+          <Route path="/" element={<Home />} />
+          <Route path="/content" element={<Content />} />
+          <Route path="/taxonomy" element={<Taxonomy />} />
+          <Route path="/team" element={<Team />} />
         </Routes>
       </div>
     </Router>
