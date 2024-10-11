@@ -2,11 +2,11 @@ import React, { useState } from 'react';
 import pic from "./1.png"
 
 const teamMembers = [
-  { name: "NagendraKumar", role: "Project Manager", bio: "Nagendra has over 10 years of experience managing software development projects.", photo: pic },
-  { name: "Abdul", role: "Lead Developer", bio: "Abdul specializes in React and has been building scalable applications for 5 years.", photo: pic },
-  { name: "Gayatri", role: "UI/UX Designer", bio: "Gayatri is an expert in user interface design and user experience optimization.", photo: pic },
-  { name: "Shruthi", role: "Backend Developer", bio: "Shruthi excels in server-side logic and database interactions.", photo: pic },
-  { name: "Sivalakshmi", role: "Quality Assurance", bio: "Sivalakshmi ensures that all code meets quality standards before release.", photo: pic }
+  { name: "NagendraKumar", role: "Web Developer", bio: "Nagendra has experience in managing software development projects.", photo: pic },
+  { name: "Abdul", role: "Content Validator", bio: "Abdul specializes in Validating the Content in the webPage.", photo: pic },
+  { name: "Gayatri", role: "Web Developer", bio: "Gayatri is expert in user interface design and user experience optimization.", photo: pic },
+  { name: "Shruthi", role: "Reporting and Delivery Lead", bio: "Shruthi Manages the team Deliverables with in Time", photo: pic },
+  { name: "Sivalakshmi", role: "Content Validator", bio: "Sivalakshmi ensures the content of webpage is Upto mark.", photo: pic }
 ];
 
 function Team() {

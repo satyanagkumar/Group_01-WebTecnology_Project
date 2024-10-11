@@ -10,59 +10,59 @@ const TaxonomyTable = () => {
           <thead className="thead-light">
             <tr>
               <th>Paper</th>
-              <th>Citation</th>
-              <th>Problem</th>
-              <th>Domain</th>
-              <th>Solution</th>
-              <th>Approach</th>
-              <th>Web Arch.</th>
+              <th>Problem Domain</th>
+              <th>Solution Approach</th>
+              <th>Web Arch.Type</th>
+              <th>Evolution Methodology</th>
+              <th>Appp Domain</th>
+              <th>Security Mechanism.</th>
             </tr>
           </thead>
           <tbody>
             <tr>
               <td>Author1 et al. (2021)</td>
-              <td>Resource Allocation Optimization</td>
-              <td>Theory</td>
-              <td>Distributed Edge-Cloud</td>
-              <td>Simulation and Theoretical Analysis</td>
-              <td>IoT and Smart Cities</td>
+              <td>Resource Effecting Optimization</td>
+              <td>Theory Sysyem</td>
+              <td>Azure cloud</td>
+              <td>Simulation Analysis</td>
+              <td>Internet of Things</td>
               <td>N/A</td>
             </tr>
             <tr>
               <td>Author2 et al. (2022)</td>
               <td>Real-Time Monitoring</td>
-              <td>Reinforcement Learning</td>
+              <td>Reinforcement </td>
               <td>Centralized Cloud</td>
-              <td>Real-World Prototyping</td>
-              <td>Healthcare Monitoring</td>
+              <td> Prototyping</td>
+              <td>Healthcare Management</td>
               <td>Secure Communication Protocols</td>
             </tr>
             <tr>
               <td>Author3 et al. (2023)</td>
-              <td>Data Privacy</td>
-              <td>Differential Privacy</td>
-              <td>Decentralized Blockchain</td>
-              <td>Empirical Analysis</td>
+              <td>Data </td>
+              <td>Privacy</td>
+              <td>centralized Etherium</td>
+              <td>Analysis</td>
               <td>N/A</td>
-              <td>Homomorphic Encryption</td>
+              <td>Encryption</td>
             </tr>
             <tr>
               <td>Author4 et al. (2020)</td>
-              <td>Network Traffic Management</td>
-              <td>Heuristic Algorithms</td>
-              <td>Hybrid (Edge and Cloud)</td>
-              <td>Simulation Study</td>
-              <td>Autonomous Vehicles</td>
-              <td>Anomaly Detection</td>
+              <td>Network Security</td>
+              <td>Algorithms</td>
+              <td>Azure</td>
+              <td>Simulator</td>
+              <td>Web of Things</td>
+              <td>Detecting Bias</td>
             </tr>
             <tr>
               <td>Author5 et al. (2021)</td>
               <td>Intelligent Decision Making</td>
-              <td>Supervised Learning</td>
-              <td>Cloud-Only</td>
-              <td>Real-World Deployment</td>
-              <td>Smart Manufacturing</td>
-              <td>Federated Identity Management</td>
+              <td>Learning</td>
+              <td>Cloud project</td>
+              <td>Application</td>
+              <td>Smart Ledger</td>
+              <td>Federated Management</td>
             </tr>
           </tbody>
         </table>
