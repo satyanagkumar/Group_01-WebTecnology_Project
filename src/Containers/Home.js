@@ -24,7 +24,7 @@ function Home() {
         <h2>{sections[activeSection].title}</h2>
         <p>{sections[activeSection].content}</p>
       </div>
-      <div className="sidebar">
+      <div className="sidebar"> 
         <h2>Overview</h2>
         <ul>
           <li onClick={() => setActiveSection('challenges')}>Key Challenges in the Field</li>
