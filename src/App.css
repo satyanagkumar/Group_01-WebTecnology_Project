@@ -29,39 +29,56 @@
 }
 
 
-/* navbar  */
+/* Navbar overall styling */
 .navbar {
   display: flex;
-  justify-content: space-between; /* Aligns the brand and the nav-items */
-  background-color: #91b31a; /* Example color */
-  padding: 0.5rem 1rem; /* Adds padding around the entire navbar */
+  justify-content: center;
+  background-color: #1fbba6ce; /* Retains the white background */
+  padding: 1rem 0; /* Increased vertical padding for a thicker navbar */
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+}
+
+/* Centering content within the navbar */
+.nav-container {
+  width: 100%;
+  max-width: 1200px; /* Max width for the inner content */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .navbar-brand {
-  margin-right: 1rem; /* Adds some margin to the right of the brand for spacing */
+  color: #046ca3; /* Bright red color similar to Mockplus logo */
+  text-decoration: none; /* Ensure no underline */
+  font-weight: bold; /* Bold font weight */
+  
+  
 }
 
 .navbar-nav {
   display: flex;
-  list-style: none; /* Removes list styling */
-  width: 80%; /* Takes full width to distribute the space */
-  justify-content: space-evenly; /* Distributes space evenly between nav items */
-  padding: 0; /* Removes padding */
-  margin: 0; /* Removes margin */
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 .nav-link {
-  color: white; /* Sets the color of the links */
-  text-decoration: none; /* Removes underline from links */
+  color: #333; /* Dark gray for readability */
+  text-decoration: none;
+  padding: 0 20px; /* Increased padding for more spacing around links */
+  font-size: 1rem; /* Larger font size for nav items */
+  font-weight: 500; /* Slightly bold font weight */
 }
 
-.nav-link:hover {
-  text-decoration: underline; /* Adds underline on hover for better visibility */
-}
-/* Hover effects for links */
 .nav-link:hover, .navbar-brand:hover {
-  opacity: 0.8;
+  opacity: 0.7; /* Opacity change on hover */
 }
+
+.active {
+  border-bottom: 3px solid #d0021b; /* Thicker red underline for active item */
+}
+
+
 
 .home {
   display: flex;
@@ -83,7 +100,7 @@
   box-shadow: -5px 0 15px rgba(0,0,0,0.1); /* Adds shadow for better separation from content */
 }
 .sidebar h2 {
-  color: #333; /* Dark grey color for sidebar heading */
+  color: rgba(51, 89, 108, 0.481); /* Dark grey color for sidebar heading */
   margin-bottom: 10px;
 }
 
@@ -98,8 +115,10 @@
   border-bottom: 1px solid #ccc;
 }
 .sidebar li:hover {
-  background-color: #e0e0e0;
+  background-color: #17badb;
+  border-radius: 10%;
 }
+
 
 .content {
   margin-right: 300px; /* Adjust this to ensure no overlap with the sidebar */
@@ -109,6 +128,14 @@
   text-justify: inter-word; /* Improves spacing between words for better justification */
   overflow: auto;
 }
+/* Styling for the content area */
+.content h2 {
+  color: #0e0501; /* Dark green color similar to what's shown in the image */
+  margin-bottom: 40px; /* Maintain space below the heading */
+  font-size: 24px; /* Ensures the font size is appropriately large */
+  text-align: center;
+}
+
 
 /*Content page*/
 
@@ -129,12 +156,13 @@ html, body {
 /* Sidebar styling */
 .sidebar2 {
   width: 250px;
-  background-color: #f4f4f4;
+  background-color: #96565618;
   padding: 20px;
   height: 100vh; /* full viewport height */
   overflow-y: auto; /* enable scrolling inside the sidebar if needed */
   position: sticky;
   top: 0; /* adjust this if you have a navbar, e.g., top: 60px; */
+  box-shadow: -5px 0 15px rgba(159, 63, 63, 0.1);
 }
 
 /* Content area styling */
@@ -153,13 +181,17 @@ html, body {
 .sidebar2 li {
   padding: 10px;
   margin-bottom: 10px;
-  background-color: #ddd;
+  background-color: #aee1e3;
   cursor: pointer;
+
+  
 }
 
 .sidebar2 li:hover {
-  background-color: #ccc;
-}
+    background-color: #aedf71;
+    border-radius: 10%;
+  }
+
 
 h1, h2 {
   color: #333;
