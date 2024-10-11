@@ -3,7 +3,7 @@ import React from 'react';
 
 const TaxonomyTable = () => {
   return (
-    <div className="container mt-5">
+    <div className="container2">
       <h2 className="text-center">Taxonomy Table</h2>
       <div className="table-responsive">
         <table className="table table-bordered table-hover mt-4">

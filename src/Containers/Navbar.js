@@ -7,7 +7,7 @@ function Navbar() {
             <NavLink className="navbar-brand" to="/">Web of Things</NavLink>
             <ul className="navbar-nav">
                 <li>
-                    <NavLink className="nav-link" to="/Home" exact activeClassName="active">Home</NavLink>
+                    <NavLink className="nav-link" to="/" exact activeClassName="active">Home</NavLink>
                 </li>
                 <li>
                     <NavLink className="nav-link" to="/Content" activeClassName="active">Content</NavLink>

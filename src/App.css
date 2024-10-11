@@ -112,45 +112,63 @@
 
 /*Content page*/
 
+/* Basic page styling to ensure full height */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Flexbox layout for main container */
 .container {
   display: flex;
-  min-height: 100vh; /* Full height of the viewport */
+  min-height: 100vh; /* ensures the container is at least the height of the viewport */
 }
 
-.sidebar {
-  position: fixed;     /* Keeps the sidebar fixed during scrolling */
-  top: 50%;            /* Starts the top edge of the sidebar at the middle of the viewport */
-  transform: translateY(-50%); /* Shifts the sidebar up by half its height to truly center it */
-  right: 0;            /* Aligns the sidebar on the right side of the viewport */
-  width: 250px;        /* Specifies the width of the sidebar */
-  height: 300px;       /* Adjust the height as needed */
-  background-color: #f0f0f0; /* Light grey background for sidebar */
+/* Sidebar styling */
+.sidebar2 {
+  width: 250px;
+  background-color: #f4f4f4;
   padding: 20px;
-  overflow-y: auto;    /* Allows scrolling inside the sidebar if content is too long */
-  box-shadow: -5px 0 15px rgba(0,0,0,0.1); /* Adds shadow for better separation from content */
-}
-.sidebar h2 {
-  color: #333; /* Dark grey color for sidebar heading */
-  margin-bottom: 10px;
+  height: 100vh; /* full viewport height */
+  overflow-y: auto; /* enable scrolling inside the sidebar if needed */
+  position: sticky;
+  top: 0; /* adjust this if you have a navbar, e.g., top: 60px; */
 }
 
-.sidebar ul {
-  list-style-type: none;
+/* Content area styling */
+.contentpage {
+  flex: 1;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+/* List styling within sidebar */
+.sidebar2 ul {
+  list-style: none;
   padding: 0;
 }
 
-.sidebar li {
+.sidebar2 li {
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #ddd;
   cursor: pointer;
-  padding: 8px;
-  border-bottom: 1px solid #ccc;
 }
-.sidebar li:hover {
-  background-color: #e0e0e0;
+
+.sidebar2 li:hover {
+  background-color: #ccc;
 }
+
+h1, h2 {
+  color: #333;
+}
+
 
 /*Taxonomy*/
 
-.container {
+.container2{
   max-width: 1200px; /* Maximum width of the container */
   margin: auto; /* Centers the container */
   padding-top: 20px; /* Top padding */
