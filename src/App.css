@@ -313,6 +313,33 @@ h1, h2 {
   cursor: pointer;
 }
 
+/* Add this CSS to your file */
+.sidebar2 {
+  /* Default display on larger screens */
+  display: block;
+}
+
+.sidebar {
+  /* Default display on larger screens */
+  display: block;
+}
+
+@media (max-width: 768px) {
+  .sidebar2 {
+    /* Hide sidebar on small screens (mobile view) */
+    display: none;
+  }
+  .sidebar {
+    /* Default display on larger screens */
+    display: none;
+  }
+
+  .content{
+    margin-right: 0px;
+  }
+}
+
+
 
 
 
