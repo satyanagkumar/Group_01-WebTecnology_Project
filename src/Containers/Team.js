@@ -1,11 +1,15 @@
 import React, { useState } from 'react';
-import pic from "./1.png"
+import pic from "./Nagendra.jpeg";
+import pic2 from "./Gayatri.PNG"
+import pic3 from "./Abdul3.jpeg";
+import pic4 from "./Shruthi.jpeg";
+
 
 const teamMembers = [
   { name: "NagendraKumar", role: "Web Developer", bio: "Nagendra has experience in managing software development projects.", photo: pic },
-  { name: "Abdul", role: "Content Validator", bio: "Abdul specializes in Validating the Content in the webPage.", photo: pic },
-  { name: "Gayatri", role: "Web Developer", bio: "Gayatri is expert in user interface design and user experience optimization.", photo: pic },
-  { name: "Shruthi", role: "Reporting and Delivery Lead", bio: "Shruthi Manages the team Deliverables with in Time", photo: pic },
+  { name: "Abdul", role: "Content Validator", bio: "Abdul specializes in Validating the Content in the webPage.", photo: pic3 },
+  { name: "Gayatri", role: "Web Developer", bio: "Gayatri is expert in user interface design and user experience optimization.", photo: pic2 },
+  { name: "Shruthi", role: "Reporting and Delivery Lead", bio: "Shruthi Manages the team Deliverables with in Time", photo: pic4 },
   { name: "Sivalakshmi", role: "Content Validator", bio: "Sivalakshmi ensures the content of webpage is Upto mark.", photo: pic }
 ];
 
