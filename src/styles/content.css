@@ -1,0 +1,52 @@
+
+/* Content area styling */
+.contentpage {
+    flex: 1;
+    padding: 20px;
+    overflow-y: auto;
+  }
+  
+  /* List styling within sidebar */
+  .sidebar2 ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar2 li {
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #a1edef;
+    cursor: pointer;
+  
+    
+  }
+  
+  .sidebar2 li:hover {
+      background-color: #bbd18a;
+      border-radius: 10%;
+    }
+  
+  
+  h3 {
+    color: #052933;
+    text-align: center;
+    text-shadow: #aee1e3;
+    transition: color 0.3s ease;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  h3:hover{
+    color: #0056b3;
+  }
+/* Sidebar styling */
+.sidebar2 {
+    width: 250px;
+    background-color: #96565618;
+    padding: 20px;
+    height: 100vh; /* full viewport height */
+    overflow-y: auto; /* enable scrolling inside the sidebar if needed */
+    position: sticky;
+    top: 0; /* adjust this if you have a navbar, e.g., top: 60px; */
+    box-shadow: -5px 0 15px rgba(159, 63, 63, 0.1);
+  }
+    

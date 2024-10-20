@@ -7,7 +7,7 @@ import pic4 from "./Shruthi.jpeg";
 
 
 const teamMembers = [
-  { name: "NagendraKumar", role: "Web Developer", bio: "Nagendra has experience in managing software development projects.", photo: pic },
+  { name: "Venkata Satya S Kumar", role: "Web Developer", bio: "Nagendra has experience in managing software development projects.", photo: pic },
   { name: "Abdul", role: "Content Validator", bio: "Abdul specializes in Validating the Content in the webPage.", photo: pic3 },
   { name: "Gayatri", role: "Web Developer", bio: "Gayatri is expert in user interface design and user experience optimization.", photo: pic2 },
   { name: "Shruthi", role: "Reporting and Delivery Lead", bio: "Shruthi Manages the team Deliverables with in Time", photo: pic4 },
