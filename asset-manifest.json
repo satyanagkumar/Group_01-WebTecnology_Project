@@ -1,19 +1,24 @@
 {
   "files": {
-    "main.css": "/Group_01-WebTecnology_Project/static/css/main.c1f8373b.css",
-    "main.js": "/Group_01-WebTecnology_Project/static/js/main.9cb0ebea.js",
+    "main.css": "/Group_01-WebTecnology_Project/static/css/main.4b519c31.css",
+    "main.js": "/Group_01-WebTecnology_Project/static/js/main.046df1a6.js",
     "static/js/453.3cec0b95.chunk.js": "/Group_01-WebTecnology_Project/static/js/453.3cec0b95.chunk.js",
     "static/media/Nagendra.jpeg": "/Group_01-WebTecnology_Project/static/media/Nagendra.793490525865605c996a.jpeg",
     "static/media/Abdul3.jpeg": "/Group_01-WebTecnology_Project/static/media/Abdul3.e1283d89a7f67dadbb98.jpeg",
     "static/media/Gayatri.PNG": "/Group_01-WebTecnology_Project/static/media/Gayatri.f1cd6d3fb4117fe98e91.PNG",
+    "static/media/MI Integration.png": "/Group_01-WebTecnology_Project/static/media/MI Integration.971da1daa84cbe3f731f.png",
     "static/media/Shruthi.jpeg": "/Group_01-WebTecnology_Project/static/media/Shruthi.099348095e434b2b356d.jpeg",
+    "static/media/sivalakshmi.jpeg": "/Group_01-WebTecnology_Project/static/media/sivalakshmi.9b4bff0936cf3c1f9d28.jpeg",
+    "static/media/IOT Security Issues.png": "/Group_01-WebTecnology_Project/static/media/IOT Security Issues.dacedba0ab25e8842ce4.png",
+    "static/media/IOT_overview.jpg": "/Group_01-WebTecnology_Project/static/media/IOT_overview.fbe7267dfbeddc90ae86.jpg",
+    "static/media/connect.png": "/Group_01-WebTecnology_Project/static/media/connect.97eb8cace73a29cb3e15.png",
     "index.html": "/Group_01-WebTecnology_Project/index.html",
-    "main.c1f8373b.css.map": "/Group_01-WebTecnology_Project/static/css/main.c1f8373b.css.map",
-    "main.9cb0ebea.js.map": "/Group_01-WebTecnology_Project/static/js/main.9cb0ebea.js.map",
+    "main.4b519c31.css.map": "/Group_01-WebTecnology_Project/static/css/main.4b519c31.css.map",
+    "main.046df1a6.js.map": "/Group_01-WebTecnology_Project/static/js/main.046df1a6.js.map",
     "453.3cec0b95.chunk.js.map": "/Group_01-WebTecnology_Project/static/js/453.3cec0b95.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c1f8373b.css",
-    "static/js/main.9cb0ebea.js"
+    "static/css/main.4b519c31.css",
+    "static/js/main.046df1a6.js"
   ]
 }
