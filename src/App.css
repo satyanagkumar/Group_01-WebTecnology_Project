@@ -212,70 +212,8 @@ html, body {
   }
 }
 
-/*Team section*/
-.team-container {
-  text-align: center;
-  padding: 20px;
-}
 
-.team-grid {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-}
 
-.team-member {
-  cursor: pointer;
-  margin: 10px;
-  transition: transform 0.2s ease-in-out;
-}
-
-.team-member:hover {
-  transform: scale(1.05);
-}
-
-.team-title:hover {
-  color: #0056b3;  /* Changes the color on hover to a blue shade */
-  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);  /* Optional: Adds a subtle shadow to make the text pop */
-}
-
-.member-photo {
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-}
-
-.member-name {
-  margin-top: 8px;
-  font-size: 16px;
-  color: #333;
-}
-
-.modal {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.modal-content {
-  background: white;
-  padding: 20px;
-  border-radius: 10px;
-  width: 500px;
-  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
-}
-
-.close-button {
-  float: right;
-  font-size: 30px;
-  cursor: pointer;
-}
 
 /* Add this CSS to your file */
 .sidebar2 {
@@ -305,7 +243,7 @@ html, body {
 
 .footer-section {
   background-color: #282c34;
-  padding: 10px;
+  padding: 3px;
   text-align: center;
   color: #d5c4c4;
   font-size: 16px;
