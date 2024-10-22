@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/Group_01-WebTecnology_Project/static/css/main.b1c8b0ea.css",
-    "main.js": "/Group_01-WebTecnology_Project/static/js/main.176458c6.js",
+    "main.css": "/Group_01-WebTecnology_Project/static/css/main.1a793953.css",
+    "main.js": "/Group_01-WebTecnology_Project/static/js/main.9e21570f.js",
     "static/js/453.3cec0b95.chunk.js": "/Group_01-WebTecnology_Project/static/js/453.3cec0b95.chunk.js",
     "static/media/Nagendra.jpeg": "/Group_01-WebTecnology_Project/static/media/Nagendra.793490525865605c996a.jpeg",
-    "static/media/Abdul3.jpeg": "/Group_01-WebTecnology_Project/static/media/Abdul3.e1283d89a7f67dadbb98.jpeg",
+    "static/media/Abdul4.jpeg": "/Group_01-WebTecnology_Project/static/media/Abdul4.8ab6eb7f99a1385ef6f5.jpeg",
     "static/media/Gayatri.PNG": "/Group_01-WebTecnology_Project/static/media/Gayatri.f1cd6d3fb4117fe98e91.PNG",
     "static/media/MI Integration.png": "/Group_01-WebTecnology_Project/static/media/MI Integration.971da1daa84cbe3f731f.png",
     "static/media/Shruthi.jpeg": "/Group_01-WebTecnology_Project/static/media/Shruthi.099348095e434b2b356d.jpeg",
@@ -13,12 +13,12 @@
     "static/media/IOT_overview.jpg": "/Group_01-WebTecnology_Project/static/media/IOT_overview.fbe7267dfbeddc90ae86.jpg",
     "static/media/connect.png": "/Group_01-WebTecnology_Project/static/media/connect.97eb8cace73a29cb3e15.png",
     "index.html": "/Group_01-WebTecnology_Project/index.html",
-    "main.b1c8b0ea.css.map": "/Group_01-WebTecnology_Project/static/css/main.b1c8b0ea.css.map",
-    "main.176458c6.js.map": "/Group_01-WebTecnology_Project/static/js/main.176458c6.js.map",
+    "main.1a793953.css.map": "/Group_01-WebTecnology_Project/static/css/main.1a793953.css.map",
+    "main.9e21570f.js.map": "/Group_01-WebTecnology_Project/static/js/main.9e21570f.js.map",
     "453.3cec0b95.chunk.js.map": "/Group_01-WebTecnology_Project/static/js/453.3cec0b95.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b1c8b0ea.css",
-    "static/js/main.176458c6.js"
+    "static/css/main.1a793953.css",
+    "static/js/main.9e21570f.js"
   ]
 }
