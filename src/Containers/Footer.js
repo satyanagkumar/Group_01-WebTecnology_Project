@@ -10,7 +10,7 @@ function Footer() {
 
 const styles = {
     footerSection: {
-        position: 'relative', // Fix it to the bottom
+        position: 'relative',
         bottom: 0, // Stick to the bottom
         left: 0,
         width: '100%', // Full width of the screen
@@ -19,7 +19,7 @@ const styles = {
         display: 'flex',
         justifyContent: 'center', // Center horizontally
         alignItems: 'center', // Center vertically
-        height: '60px', // Footer height
+        height: '50px', // Footer height
         boxShadow: '0 -2px 10px rgba(0, 0, 0, 0.1)', // Shadow for visual appeal
         zIndex: 1000, // Ensure it stays on top
     },
