@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import '../styles/Team.css'; 
 import pic from "./Nagendra.jpeg";
 import pic2 from "./Gayatri.PNG"
-import pic3 from "./Abdul3.jpeg";
+import pic3 from "./Abdul4.jpeg";
 import pic4 from "./Shruthi.jpeg";
 import pic5 from "./sivalakshmi.jpeg"
 
@@ -20,7 +20,7 @@ function Team() {
 
   const handleMemberClick = member => {
     setSelectedMember(member);
-    setShowContributions(false); // Reset to hide contributions initially
+    setShowContributions(false);
   };
 
   const toggleContributions = () => {
@@ -29,7 +29,7 @@ function Team() {
 
   const closeModal = () => {
     setSelectedMember(null);
-    setShowContributions(false); // Reset on modal close
+    setShowContributions(false);
   };
 
   return (
@@ -51,7 +51,7 @@ function Team() {
             <p>{selectedMember.bio}</p>
             <button onClick={toggleContributions}>Work Contribution</button>
             {showContributions && (
-              <p>{selectedMember.contributions.join(' ')}</p> // Join contributions into a single paragraph
+              <p>{selectedMember.contributions.join(' ')}</p>
             )}
           </div>
         </div>

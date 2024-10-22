@@ -1,0 +1,38 @@
+
+.reference-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0;
+}
+
+.reference-container ul {
+    list-style: none;
+    padding: 0;
+}
+
+.reference-container li {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    transition: background-color 0.3s;
+}
+
+.reference-container li:hover {
+    background-color: #f8f8f8;
+}
+
+.note {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #f0f0f0;
+    border-left: 5px solid #007BFF;
+    font-style: italic;
+    color: #333;
+}
+
+.note p {
+    margin: 0;
+}

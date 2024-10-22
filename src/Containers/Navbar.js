@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
-import '../styles/Navbar.css'; // Ensure the path is correct
+import '../styles/Navbar.css';
 
 function Navbar() {
     const [isMobile, setIsMobile] = useState(false);
@@ -30,6 +30,9 @@ function Navbar() {
                     </li>
                     <li>
                         <NavLink className="nav-link" to="/Team" activeClassName="active" onClick={handleToggle}>Team</NavLink>
+                    </li>
+                    <li>
+                     <NavLink className="nav-link" to="/reference" activeClassName="active" onClick={handleToggle}>Reference</NavLink>
                     </li>
                 </ul>
                 {/* Background overlay */}

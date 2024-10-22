@@ -29,28 +29,28 @@
 }
 
 
-/* Navbar overall styling */
+
 .navbar {
   display: flex;
   justify-content: center;
-  background-color: #1fbba6ce; /* Retains the white background */
-  padding: 1rem 0; /* Increased vertical padding for a thicker navbar */
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+  background-color: #1fbba6ce; 
+  padding: 1rem 0; 
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1); 
 }
 
-/* Centering content within the navbar */
+
 .nav-container {
   width: 100%;
-  max-width: 1200px; /* Max width for the inner content */
+  max-width: 1200px; 
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
 .navbar-brand {
-  color: #046ca3; /* Bright red color similar to Mockplus logo */
-  text-decoration: none; /* Ensure no underline */
-  font-weight: bold; /* Bold font weight */
+  color: #046ca3; 
+  text-decoration: none;
+  font-weight: bold; 
   
   
 }
@@ -63,11 +63,11 @@
 }
 
 .nav-link {
-  color: #333; /* Dark gray for readability */
+  color: #333; 
   text-decoration: none;
-  padding: 0 20px; /* Increased padding for more spacing around links */
-  font-size: 1rem; /* Larger font size for nav items */
-  font-weight: 500; /* Slightly bold font weight */
+  padding: 0 20px; 
+  font-size: 1rem; 
+  font-weight: 500; 
 }
 
 .nav-link:hover, .navbar-brand:hover {
@@ -75,7 +75,7 @@
 }
 
 .active {
-  border-bottom: 3px solid #d0021b; /* Thicker red underline for active item */
+  border-bottom: 3px solid #d0021b; 
 }
 
 
@@ -88,19 +88,19 @@
 
 
 .sidebar {
-  position: fixed;     /* Keeps the sidebar fixed during scrolling */
-  top: 50%;            /* Starts the top edge of the sidebar at the middle of the viewport */
-  transform: translateY(-50%); /* Shifts the sidebar up by half its height to truly center it */
-  right: 0;            /* Aligns the sidebar on the right side of the viewport */
-  width: 250px;        /* Specifies the width of the sidebar */
-  height: 300px;       /* Adjust the height as needed */
-  background-color: #f0f0f0; /* Light grey background for sidebar */
+  position: fixed;     
+  top: 50%;            
+  transform: translateY(-50%); 
+  right: 0;            
+  width: 250px;        
+  height: 300px;       
+  background-color: #f0f0f0;
   padding: 20px;
-  overflow-y: auto;    /* Allows scrolling inside the sidebar if content is too long */
-  box-shadow: -5px 0 15px rgba(0,0,0,0.1); /* Adds shadow for better separation from content */
+  overflow-y: auto;    
+  box-shadow: -5px 0 15px rgba(0,0,0,0.1); 
 }
 .sidebar h2 {
-  color: rgba(51, 89, 108, 0.481); /* Dark grey color for sidebar heading */
+  color: rgba(51, 89, 108, 0.481); 
   margin-bottom: 10px;
   
 }
@@ -123,25 +123,25 @@
 
 
 .content {
-  margin-right: 300px; /* Adjust this to ensure no overlap with the sidebar */
+  margin-right: 300px; 
   padding: 20px;
-  background-color: #fff; /* White background for better readability */
-  text-align: justify; /* Justifies the text */
-  text-justify: inter-word; /* Improves spacing between words for better justification */
+  background-color: #fff; 
+  text-align: justify; 
+  text-justify: inter-word; 
   overflow: auto;
 }
 /* Styling for the content area */
 .content h2 {
-  color: #0e0501; /* Dark green color similar to what's shown in the image */
-  margin-bottom: 40px; /* Maintain space below the heading */
-  font-size: 24px; /* Ensures the font size is appropriately large */
+  color: #0e0501; 
+  margin-bottom: 40px; 
+  font-size: 24px; 
   text-align: center;
 }
 
 
 /*Content page*/
 
-/* Basic page styling to ensure full height */
+
 html, body {
   height: 100%;
   margin: 0;
@@ -149,10 +149,10 @@ html, body {
   font-family: Arial, sans-serif;
 }
 
-/* Flexbox layout for main container */
+
 .container {
   display: flex;
-  min-height: 100vh; /* ensures the container is at least the height of the viewport */
+  min-height: 100vh; 
 }
 
 
@@ -160,79 +160,78 @@ html, body {
 /*Taxonomy*/
 
 .container2{
-  max-width: 1200px; /* Maximum width of the container */
+  max-width: 1200px; 
   margin:auto;
-  padding-top: 20px; /* Top padding */
-  padding-bottom: 20px; /* Bottom padding */
+  padding-top: 20px; 
+  padding-bottom: 20px; 
 }
 
 .text-center {
-  text-align: center; /* Center-aligns the text */
-  margin-top: 20px; /* Adds space above the heading */
-  margin-bottom: 20px; /* Adds space below the heading */
+  text-align: center; 
+  margin-top: 20px; 
+  margin-bottom: 20px; 
 }
 
 .table-responsive {
-  overflow-x: auto; /* Allows horizontal scrolling */
-  -webkit-overflow-scrolling: touch; /* Smooth scrolling on touch devices */
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Adds shadow for depth */
-  border-radius: 5px; /* Rounded corners */
-  background: white; /* Background color */
-  padding: 0 20px; /* Padding on both sides inside the container */
+  overflow-x: auto; 
+  -webkit-overflow-scrolling: touch; 
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
+  border-radius: 5px; 
+  background: white; 
+  padding: 0 20px; 
 }
 
 .table {
-  width: 100%; /* Full width */
-  margin-bottom: 1rem; /* Space below the table */
-  border-collapse: collapse; /* Ensures borders are merged */
+  width: 100%;
+  margin-bottom: 1rem; 
+  border-collapse: collapse; 
 }
 
 .table th,
 .table td {
-  padding: 12px; /* Padding inside cells */
-  vertical-align: top; /* Aligns content to the top of the cell */
-  border: 1px solid #dee2e6; /* Border for cells */
-  text-align: center; /* Centers text horizontally */
+  padding: 12px; 
+  vertical-align: top; 
+  border: 1px solid #dee2e6; 
+  text-align: center; 
 }
 
 .table thead th {
-  background-color: #6e9d47;  /* Darker shade for header */
+  background-color: #6e9d47;  
   color: white;
   font-weight: bold;
-  border-bottom: 2px solid #dee2e6; /* Thicker border for header cells */
+  border-bottom: 2px solid #dee2e6; 
 }
 
 .table-hover tbody tr:hover {
-  background-color: #f5f5f5; /* Color on row hover */
+  background-color: #f5f5f5; 
 }
 
 @media (max-width: 768px) {
   .table-responsive {
-    border: 0; /* Removes border on small devices for edge-to-edge look */
+    border: 0; 
   }
 }
 
 
 
 
-/* Add this CSS to your file */
+
 .sidebar2 {
-  /* Default display on larger screens */
   display: block;
 }
 
 .sidebar {
-  /* Default display on larger screens */
+  
   display: block;
 }
 
 @media (max-width: 768px) {
   .sidebar2 {
-    /* Hide sidebar on small screens (mobile view) */
+   
     display: none;
   }
   .sidebar {
-    /* Default display on larger screens */
+    
     display: none;
   }
 

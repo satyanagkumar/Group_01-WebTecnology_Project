@@ -53,7 +53,6 @@ function Content() {
           <li onClick={() => scrollToPaper(paper3Ref)}>Cluster 3</li>
           <li onClick={() => scrollToPaper(paper4Ref)}>Cluster 4</li>
           <li onClick={() => scrollToPaper(paper5Ref)}>Cluster 5</li>
-          {/* Repeat for other papers */}
         </ul>
       </div>
     </div>

@@ -7,6 +7,8 @@ import Content from './Containers/Content';
 import Taxonomy from './Containers/Taxonomy';
 import Team from './Containers/Team';
 import Footer from './Containers/Footer';
+import References from './Containers/References';
+
 
 function App() {
   return (
@@ -19,6 +21,7 @@ function App() {
             <Route path="/content" element={<Content />} />
             <Route path="/taxonomy" element={<Taxonomy />} />
             <Route path="/team" element={<Team />} />
+            <Route path="/reference" element={<References  />} />
           </Routes>
         </div>
         <Footer />

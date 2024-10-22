@@ -3,13 +3,13 @@ import '../styles/home.css';
 import pic9 from "./IOT Security Issues.png"; 
 import pic10 from "./connect.png";
 import pic11 from "./IOT_overview.jpg";
-import pic12 from "./MI Integration.png"; // Ensure the image path is correct
+import pic12 from "./MI Integration.png";
 
 function Home() {
   const [activeSection, setActiveSection] = useState('Abstract');
   const [isMobile, setIsMobile] = useState(false);
 
-  // Check if the screen size is mobile
+
   useEffect(() => {
     const handleResize = () => {
       if (window.innerWidth <= 768) {
@@ -19,10 +19,10 @@ function Home() {
       }
     };
     handleResize(); // Run on mount
-    window.addEventListener('resize', handleResize); // Add resize listener
+    window.addEventListener('resize', handleResize);
 
     return () => {
-      window.removeEventListener('resize', handleResize); // Clean up listener
+      window.removeEventListener('resize', handleResize);
     };
   }, []);
 
@@ -88,7 +88,6 @@ function Home() {
   return (
     <div className="home">
       <div className="content">
-        {/* Show all sections in one continuous scroll on mobile */}
         {isMobile ? (
           <>
             {Object.keys(sections).map((key) => (
@@ -100,14 +99,14 @@ function Home() {
           </>
         ) : (
           <>
-            {/* For large screens, render based on active section */}
+            
             <h2>{sections[activeSection].title}</h2>
             {sections[activeSection].content}
           </>
         )}
       </div>
 
-      {/* Only show sidebar on large screens */}
+      
       {!isMobile && (
         <div className="sidebar">
           <h2>Overview</h2>

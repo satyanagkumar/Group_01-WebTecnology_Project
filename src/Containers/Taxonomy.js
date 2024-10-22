@@ -76,7 +76,6 @@ const TaxonomyTable = () => {
   );
 };
 
-// CSS in JS for advanced styles ensuring the table fits the page properly
 const styles = {
   fullPageContainer: {
     width: '100vw',
@@ -99,8 +98,8 @@ const styles = {
   },
   tableWrapper: {
     width: '100%',
-    maxWidth: '100vw', // Take the full width of the screen
-    overflowX: 'auto', // Allow horizontal scroll for smaller screens
+    maxWidth: '100vw',
+    overflowX: 'auto',
   },
   table: {
     width: '100%',

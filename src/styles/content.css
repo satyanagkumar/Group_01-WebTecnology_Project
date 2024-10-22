@@ -1,4 +1,4 @@
-/* General layout setup */
+
 .container {
   display: flex;
   background: linear-gradient(135deg, #f3f9fb, #ffffff); /* Light gradient background */
@@ -6,7 +6,6 @@
   overflow: hidden;
 }
 
-/* Content page styling */
 .contentpage {
   flex: 1;
   padding: 40px;
@@ -18,7 +17,6 @@
   transition: all 0.3s ease;
 }
 
-/* Paper content headings */
 h3 {
   color: #34495e;
   text-align: center;
@@ -30,7 +28,6 @@ h3 {
   cursor: pointer;
 }
 
-/* Adding subtle underline animation */
 h3::after {
   content: '';
   width: 100px;
@@ -52,7 +49,6 @@ h3:hover::after {
   background-color: #16a085;
 }
 
-/* Paragraph text */
 p {
   font-size: 1.25rem;
   line-height: 1.8;
@@ -60,7 +56,6 @@ p {
   margin-bottom: 25px;
 }
 
-/* Image styling in content with hover effect */
 .contentpage img {
   width: 100%;
   height: auto;
@@ -76,7 +71,6 @@ p {
   box-shadow: 0 16px 28px rgba(0, 0, 0, 0.3);
 }
 
-/* Sidebar container */
 .sidebar2 {
   width: 260px;
   background: #ecf0f1;
@@ -90,7 +84,6 @@ p {
   transition: all 0.4s ease;
 }
 
-/* Sidebar heading */
 .sidebar2 h2 {
   font-size: 1.8rem;
   color: #2c3e50;
@@ -98,7 +91,6 @@ p {
   margin-bottom: 20px;
 }
 
-/* Sidebar list items */
 .sidebar2 ul {
   list-style: none;
   padding: 0;
@@ -118,7 +110,7 @@ p {
   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
 }
 
-/* Hover and active effect for sidebar items */
+
 .sidebar2 li:hover {
   background-color: #16a085;
   transform: translateY(-4px) scale(1.05);
@@ -131,7 +123,6 @@ p {
   box-shadow: 0 10px 24px rgba(231, 76, 60, 0.4);
 }
 
-/* Responsive design adjustments */
 @media (max-width: 768px) {
   .container {
     flex-direction: column;

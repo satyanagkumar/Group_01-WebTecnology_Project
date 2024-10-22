@@ -1,4 +1,4 @@
-/* General styles for the navbar */
+
 .navbar {
     background-color: #1fbba6;
     padding: 1rem 2rem;
@@ -11,7 +11,7 @@
     transition: background-color 0.3s ease-in-out;
 }
 
-/* Navbar brand styling */
+
 .navbar-brand {
     color: white;
     font-size: 2.2rem;
@@ -19,7 +19,7 @@
     text-decoration: none;
     text-transform: uppercase;
     letter-spacing: 0.2rem;
-    font-family: 'Poppins', sans-serif; /* More modern, elegant font */
+    font-family: 'Poppins', sans-serif; 
     transition: color 0.3s ease;
 }
 
@@ -27,24 +27,23 @@
     color: #ffd700;
 }
 
-/* Right-aligned navbar with different font */
 .navbar-nav {
     list-style: none;
     display: flex;
-    gap: 1.5rem;  /* Adds space between nav items */
+    gap: 1.5rem; 
     margin: 0;
     align-items: center;
-    justify-content: flex-end; /* Align to the right */
+    justify-content: flex-end;
     flex-grow: 1;
-    font-family: 'Roboto', sans-serif; /* Clean, readable font for nav links */
+    font-family: 'Roboto', sans-serif;
 }
 
-/* Navbar list items */
+
 .navbar-nav li {
     margin: 0;
 }
 
-/* More attractive, modern nav-link styling */
+
 .nav-link {
     color: white;
     text-decoration: none;
@@ -53,7 +52,7 @@
     position: relative;
     letter-spacing: 0.1rem;
     transition: all 0.3s ease;
-    font-family: 'Roboto', sans-serif; /* More modern and attractive font */
+    font-family: 'Roboto', sans-serif;
 }
 
 .nav-link:hover {
@@ -76,7 +75,6 @@
     width: 100%;
 }
 
-/* Hamburger icon for mobile view */
 .hamburger-icon {
     display: none;
     cursor: pointer;
@@ -96,7 +94,7 @@
     background-color: #ffd700;
 }
 
-/* Mobile responsive navbar */
+
 @media (max-width: 768px) {
     .navbar-nav {
         position: absolute;
