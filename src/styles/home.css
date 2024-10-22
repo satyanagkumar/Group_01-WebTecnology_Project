@@ -1,0 +1,163 @@
+/* General Page Setup */
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #e0f7fa, #ffffff); /* Light gradient background */
+  height: 100%; /* Full viewport height */
+  overflow-x: hidden; /* No horizontal scroll */
+}
+
+/* Container for the entire page */
+.home {
+  display: flex;
+  height: 100vh; /* Full viewport height */
+  overflow-y: auto; /* Single scroll for the entire page */
+  width: 100%;
+}
+
+/* Overview Sidebar styling - Full Height and on the Right */
+.sidebar {
+  position: fixed;
+  right: 0;
+  width: 280px;
+  height: 70vh;
+  padding: 31px;
+  background-color: #1abc9c;
+  color: white;
+  border-radius: 10px 0 0 10px;
+  box-shadow: -4px 0 15px rgba(0, 0, 0, 0.2);
+  z-index: 2;
+  overflow-y: auto;
+}
+
+.sidebar h2 {
+  font-size: 2rem;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 20px;
+}
+
+.sidebar li {
+  margin-bottom: 25px;
+  padding: 25px;
+  background: #16a085;
+  color: white;
+  text-align: center;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.sidebar li:hover {
+  background-color: #ffffff;
+  color: #1abc9c;
+  transform: translateY(-5px);
+}
+
+/* Content Styling */
+.content {
+  margin-right: 380px; /* Space for the sidebar on the right */
+  padding: 60px;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  width: calc(100% - 300px); /* Adjust the width to account for sidebar */
+  min-height: 100vh; /* Ensure it fills the entire viewport */
+}
+
+.content h2 {
+  font-size: 3rem;
+  color: #2c3e50;
+  margin-bottom: 40px;
+  text-align: center;
+  position: relative;
+}
+
+.content h2::after {
+  content: '';
+  width: 100px;
+  height: 4px;
+  background-color: #e67e22;
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.content p {
+  font-size: 1.4rem;
+  line-height: 1.8;
+  color: #555;
+  margin-bottom: 25px;
+}
+
+/* Larger image presentation */
+.content img {
+  width: 90%;
+  height: auto;
+  display: block;
+  margin: 0 auto 40px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  transition: transform 0.4s ease;
+}
+
+.content img:hover {
+  transform: scale(1.05);
+}
+
+/* Mobile Responsive Design */
+@media (max-width: 768px) {
+  /* Stack sidebar on top of the content */
+  .home {
+    flex-direction: column;
+  }
+
+  /* Sidebar takes full width and adjusts height */
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+    border-radius: 0;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+
+  .sidebar ul {
+    padding: 0;
+  }
+
+  .sidebar li {
+    padding: 20px;
+    font-size: 1.2rem;
+  }
+
+  /* Adjust content width and padding for mobile */
+  .content {
+    margin-right: 0;
+    width: 100%;
+    padding: 30px;
+    box-shadow: none; /* Remove box shadow for simpler mobile design */
+  }
+
+  .content h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+  }
+  
+  .content p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+
+  .content img {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}

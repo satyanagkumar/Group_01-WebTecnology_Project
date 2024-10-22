@@ -1,79 +1,142 @@
+/* Main container styling */
 .team-container {
-    text-align: center;
-    padding: 20px;
+  text-align: center;
+  padding: 40px;
+  background-color: #f4f7f6;
+  font-family: 'Poppins', sans-serif;
+}
+
+.team-title {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  color: #2c3e50;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Team grid layout */
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  justify-items: center;
+}
+
+/* Team member card */
+.team-member {
+  position: relative;
+  width: 200px;
+  padding: 15px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.team-member:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+/* Team member photo */
+.member-photo {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+/* Member name styling */
+.member-name {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333;
+  margin-top: 10px;
+}
+
+/* Modal window styling */
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7); /* Dark background overlay */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  backdrop-filter: blur(8px); /* Adds a blurred background effect */
+}
+
+.modal-content {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 15px;
+  width: 500px;
+  max-width: 90%;
+  text-align: left;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+  position: relative;
+  animation: fadeIn 0.4s ease-in-out; /* Add fade in animation */
+  transition: all 0.3s ease;
+}
+
+/* Close button styling */
+.close-button {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  font-size: 1.5rem;
+  color: #333;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.close-button:hover {
+  color: #e74c3c;
+}
+
+/* Work contribution button */
+button {
+  background-color: #1abc9c;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  display: block;  /* Ensures the button takes full width */
+  margin: 20px auto;  /* Centers the button horizontally */
+  text-decoration: none;  /* Removes underline effect */
+}
+
+button:hover {
+  background-color: #16a085;
+  transform: translateY(-3px); /* Slight lift effect on hover */
+  text-decoration: none; /* Ensures no underline on hover */
+}
+
+
+/* Member bio and contributions */
+.modal-content p {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #555;
+  margin-top: 10px;
+}
+
+/* Animation for modal appearance */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
   }
-  
-  .team-grid {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+  to {
+    opacity: 1;
+    transform: scale(1);
   }
-  
-  .team-member {
-    cursor: pointer;
-    margin: 10px;
-    transition: transform 0.2s ease-in-out;
-  }
-  
-  .team-member:hover {
-    transform: scale(1.05);
-  }
-  
-  .team-title:hover {
-    color: #0056b3;  /* Changes the color on hover to a blue shade */
-    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);  /* Optional: Adds a subtle shadow to make the text pop */
-  }
-  
-  .member-photo {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-  }
-  
-  .member-name {
-    margin-top: 8px;
-    font-size: 16px;
-    color: #333;
-  }
-  
-  .modal {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .modal-content {
-    background: white;
-    padding: 20px;
-    border-radius: 10px;
-    width: 500px;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
-  }
-  
-  .close-button {
-    float: right;
-    font-size: 30px;
-    cursor: pointer;
-  }
-  
-  .modal-content button {
-    padding: 10px 20px;
-    background-color: #007BFF;  /* Bootstrap primary blue for example */
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 16px;
-    margin-top: 10px;  /* Give some space above the button */
-    transition: background-color 0.3s;
-  }
-  
-  .modal-content button:hover {
-    background-color: #0056b3;  /* Darker blue on hover */
-  }
+}

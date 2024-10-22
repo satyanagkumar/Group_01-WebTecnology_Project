@@ -1,52 +1,165 @@
+/* General layout setup */
+.container {
+  display: flex;
+  background: linear-gradient(135deg, #f3f9fb, #ffffff); /* Light gradient background */
+  height: 100vh;
+  overflow: hidden;
+}
 
-/* Content area styling */
+/* Content page styling */
 .contentpage {
-    flex: 1;
-    padding: 20px;
-    overflow-y: auto;
-  }
-  
-  /* List styling within sidebar */
-  .sidebar2 ul {
-    list-style: none;
-    padding: 0;
-  }
-  
-  .sidebar2 li {
-    padding: 10px;
-    margin-bottom: 10px;
-    background-color: #a1edef;
-    cursor: pointer;
-  
-    
-  }
-  
-  .sidebar2 li:hover {
-      background-color: #bbd18a;
-      border-radius: 10%;
-    }
-  
-  
-  h3 {
-    color: #052933;
-    text-align: center;
-    text-shadow: #aee1e3;
-    transition: color 0.3s ease;
-    cursor: pointer;
-    font-weight: bold;
-  }
-  h3:hover{
-    color: #0056b3;
-  }
-/* Sidebar styling */
+  flex: 1;
+  padding: 40px;
+  overflow-y: auto;
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+  margin-right: 30px;
+  transition: all 0.3s ease;
+}
+
+/* Paper content headings */
+h3 {
+  color: #34495e;
+  text-align: center;
+  font-weight: bold;
+  font-size: 2rem;
+  margin-bottom: 30px;
+  position: relative;
+  transition: color 0.4s ease;
+  cursor: pointer;
+}
+
+/* Adding subtle underline animation */
+h3::after {
+  content: '';
+  width: 100px;
+  height: 4px;
+  background-color: #1abc9c;
+  position: absolute;
+  left: 50%;
+  bottom: -10px;
+  transform: translateX(-50%);
+  transition: width 0.3s ease, background-color 0.3s ease;
+}
+
+h3:hover {
+  color: #1abc9c;
+}
+
+h3:hover::after {
+  width: 120px;
+  background-color: #16a085;
+}
+
+/* Paragraph text */
+p {
+  font-size: 1.25rem;
+  line-height: 1.8;
+  color: #555;
+  margin-bottom: 25px;
+}
+
+/* Image styling in content with hover effect */
+.contentpage img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+  border-radius: 12px;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contentpage img:hover {
+  transform: scale(1.07);
+  box-shadow: 0 16px 28px rgba(0, 0, 0, 0.3);
+}
+
+/* Sidebar container */
 .sidebar2 {
-    width: 250px;
-    background-color: #96565618;
-    padding: 20px;
-    height: 100vh; /* full viewport height */
-    overflow-y: auto; /* enable scrolling inside the sidebar if needed */
-    position: sticky;
-    top: 0; /* adjust this if you have a navbar, e.g., top: 60px; */
-    box-shadow: -5px 0 15px rgba(159, 63, 63, 0.1);
+  width: 260px;
+  background: #ecf0f1;
+  padding: 20px;
+  border-radius: 0 20px 20px 0;
+  box-shadow: -8px 0 20px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  overflow-y: auto;
+  transition: all 0.4s ease;
+}
+
+/* Sidebar heading */
+.sidebar2 h2 {
+  font-size: 1.8rem;
+  color: #2c3e50;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Sidebar list items */
+.sidebar2 ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar2 li {
+  padding: 15px;
+  margin-bottom: 15px;
+  background-color: #1abc9c;
+  color: white;
+  font-size: 1.2rem;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Hover and active effect for sidebar items */
+.sidebar2 li:hover {
+  background-color: #16a085;
+  transform: translateY(-4px) scale(1.05);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.sidebar2 li.active {
+  background-color: #e74c3c;
+  transform: translateY(-6px);
+  box-shadow: 0 10px 24px rgba(231, 76, 60, 0.4);
+}
+
+/* Responsive design adjustments */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
   }
-    
+
+  .contentpage {
+    margin-right: 0;
+    padding: 20px;
+    box-shadow: none;
+    border-radius: 0;
+  }
+
+  .sidebar2 {
+    width: 100%;
+    border-radius: 0;
+    margin-bottom: 20px;
+    box-shadow: none;
+    height: auto;
+  }
+
+  .sidebar2 ul {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .sidebar2 li {
+    margin-bottom: 0;
+    padding: 10px;
+    font-size: 1rem;
+  }
+}

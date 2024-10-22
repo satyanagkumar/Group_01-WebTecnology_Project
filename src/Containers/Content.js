@@ -17,13 +17,6 @@ function Content() {
       <div className="contentpage">
         <div className="Cluster">
           <p>The collection of 25 papers has been systematically classified into 5 clusters of papers based on similarities of the formulated problem, solutions and methods. These groups were created to emphasize the specific subject matters in the general contexts of the Internet of Things (IoT) and sometimes referred to as the Web of Things (WoT). Each of them reflect particular aspect of IoT and WoT research encompassing overall security threats, intricacies of device management, pursuit of interoperability, computing methods application, and particular architectural solutions for targeted use cases. This way of structuring not only helps to gain a better understanding of the shared issues and breakthroughs that occur within each topical area but also emphasizes the activity and, on the whole, vast area of research in the rather promising fields of IoT and WoT.</p>
-          <ul>
-            <li>Cluster 1: Security in IoT and WoT</li>
-            <li>Cluster 2: Discovery and Management in IoT/WoT</li>
-            <li>Cluster 3: Standards, Interoperability, and Middleware in IoT/WoT</li>
-            <li>Cluster 4: Machine Learning and Algorithmic Solutions</li>
-            <li>Cluster 5: Application-Specific Implementations and Architectures</li>
-          </ul>
         </div>
         <div ref={paper1Ref}>
           <h3>Cluster 1: Security in IoT and WoT</h3>

@@ -32,6 +32,8 @@ function Navbar() {
                         <NavLink className="nav-link" to="/Team" activeClassName="active" onClick={handleToggle}>Team</NavLink>
                     </li>
                 </ul>
+                {/* Background overlay */}
+                {isMobile && <div className="nav-overlay overlay-active" onClick={handleToggle}></div>}
             </div>
         </nav>
     );
