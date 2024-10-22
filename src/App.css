@@ -78,11 +78,14 @@
   border-bottom: 3px solid #d0021b; /* Thicker red underline for active item */
 }
 
+
+
 .home {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
 }
+
 
 .sidebar {
   position: fixed;     /* Keeps the sidebar fixed during scrolling */
@@ -151,6 +154,66 @@ html, body {
   display: flex;
   min-height: 100vh; /* ensures the container is at least the height of the viewport */
 }
+
+
+
+/*Taxonomy*/
+
+.container2{
+  max-width: 1200px; /* Maximum width of the container */
+  margin:auto;
+  padding-top: 20px; /* Top padding */
+  padding-bottom: 20px; /* Bottom padding */
+}
+
+.text-center {
+  text-align: center; /* Center-aligns the text */
+  margin-top: 20px; /* Adds space above the heading */
+  margin-bottom: 20px; /* Adds space below the heading */
+}
+
+.table-responsive {
+  overflow-x: auto; /* Allows horizontal scrolling */
+  -webkit-overflow-scrolling: touch; /* Smooth scrolling on touch devices */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Adds shadow for depth */
+  border-radius: 5px; /* Rounded corners */
+  background: white; /* Background color */
+  padding: 0 20px; /* Padding on both sides inside the container */
+}
+
+.table {
+  width: 100%; /* Full width */
+  margin-bottom: 1rem; /* Space below the table */
+  border-collapse: collapse; /* Ensures borders are merged */
+}
+
+.table th,
+.table td {
+  padding: 12px; /* Padding inside cells */
+  vertical-align: top; /* Aligns content to the top of the cell */
+  border: 1px solid #dee2e6; /* Border for cells */
+  text-align: center; /* Centers text horizontally */
+}
+
+.table thead th {
+  background-color: #6e9d47;  /* Darker shade for header */
+  color: white;
+  font-weight: bold;
+  border-bottom: 2px solid #dee2e6; /* Thicker border for header cells */
+}
+
+.table-hover tbody tr:hover {
+  background-color: #f5f5f5; /* Color on row hover */
+}
+
+@media (max-width: 768px) {
+  .table-responsive {
+    border: 0; /* Removes border on small devices for edge-to-edge look */
+  }
+}
+
+
+
 
 /* Add this CSS to your file */
 .sidebar2 {
