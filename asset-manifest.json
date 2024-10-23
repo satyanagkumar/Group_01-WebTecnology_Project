@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Group_01-WebTecnology_Project/static/css/main.1a793953.css",
+    "main.css": "/Group_01-WebTecnology_Project/static/css/main.9cdfe110.css",
     "main.js": "/Group_01-WebTecnology_Project/static/js/main.9e21570f.js",
     "static/js/453.3cec0b95.chunk.js": "/Group_01-WebTecnology_Project/static/js/453.3cec0b95.chunk.js",
     "static/media/Nagendra.jpeg": "/Group_01-WebTecnology_Project/static/media/Nagendra.793490525865605c996a.jpeg",
@@ -13,12 +13,12 @@
     "static/media/IOT_overview.jpg": "/Group_01-WebTecnology_Project/static/media/IOT_overview.fbe7267dfbeddc90ae86.jpg",
     "static/media/connect.png": "/Group_01-WebTecnology_Project/static/media/connect.97eb8cace73a29cb3e15.png",
     "index.html": "/Group_01-WebTecnology_Project/index.html",
-    "main.1a793953.css.map": "/Group_01-WebTecnology_Project/static/css/main.1a793953.css.map",
+    "main.9cdfe110.css.map": "/Group_01-WebTecnology_Project/static/css/main.9cdfe110.css.map",
     "main.9e21570f.js.map": "/Group_01-WebTecnology_Project/static/js/main.9e21570f.js.map",
     "453.3cec0b95.chunk.js.map": "/Group_01-WebTecnology_Project/static/js/453.3cec0b95.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1a793953.css",
+    "static/css/main.9cdfe110.css",
     "static/js/main.9e21570f.js"
   ]
 }
