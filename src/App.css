@@ -210,6 +210,9 @@ html, body {
   .table-responsive {
     border: 0; 
   }
+  .active{
+    border: none;
+  }
 }
 
 
